@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    /* 🔤 Font */
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif;
+
+    /* 🌞 LIGHT MODE */
+    --color-bg: #F6F8FB;
+    --color-surface: #FFFFFF;
+    --color-surface-soft: #EEF3F9;
+
+    --color-primary: #16A34A;       /* verde principal */
+    --color-primary-strong: #15803D;
+
+    --color-secondary: #1D4ED8;     /* azul */
+    --color-accent: #F59E0B;        /* dourado */
+
+    --color-text: #0F172A;
+    --color-text-soft: #475569;
+
+    --color-border: #DBE3EF;
+
+    --color-success: #22C55E;
+    --color-warning: #F59E0B;
+    --color-danger: #EF4444;
+
+    /* 🌚 DARK MODE */
+    --color-dark-bg: #0B1220;
+    --color-dark-surface: #111827;
+    --color-dark-surface-soft: #1F2937;
+
+    --color-dark-primary: #22C55E;
+    --color-dark-primary-strong: #16A34A;
+
+    --color-dark-secondary: #60A5FA;
+    --color-dark-accent: #FBBF24;
+
+    --color-dark-text: #E5EEFB;
+    --color-dark-text-soft: #94A3B8;
+
+    --color-dark-border: #334155;
+}
